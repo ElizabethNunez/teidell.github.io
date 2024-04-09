@@ -166,55 +166,32 @@ html{
     font-weight: bold;
     margin: 8px 0;
 }
-/* SECCION PORTAFOLIO*/
-.portafolio{
-background-color: #e6e6e6;
-    padding: 140px 0 100px 0;
-    text-align: center;
-    color: black;
-    display: flex;
-        
-}
-.portafolio .contenido-seccion{
-    max-width: 1000px;
-    margin: auto;
-    padding: 0 10px;
-}
-.portafolio .contenido-seccion h3{
-    text-transform: uppercase;
-    font-size: 30px;
-}
-.portafolio .contenido-seccion .fila{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 30px;
-}
+   
 
 /* SECCION RESUMEN */
 .resumen{
     background-color: #e6e6e6;
-    padding: 140px 0 100px 0;
-    text-align: center;
+      text-align: center;
 }
 .resumen .contenido-seccion{
     max-width: 1000px;
     margin: auto;
     padding: 0 10px;
+    
 }
-.resumen .contenido-seccion h3{
-    text-transform: uppercase;
-    font-size: 30px;
-}
+
 .resumen .contenido-seccion .info{
     text-align: left;
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
+    color: #666;
 }
-.resumen .contenido-seccion .info .col{
+.resumen .contenido-seccion .info .col {
     width: 45%;
 }
-.resumen .contenido-seccion .info .col .titulo{
+
+.resumen .contenido-seccion .info .col .titulo {
     display: inline-block;
     color: #940253;
     font-weight: bold;
@@ -222,34 +199,17 @@ background-color: #e6e6e6;
     padding: 10px;
 
 }
-.resumen .contenido-seccion .info .col table{
-    margin-top: 30px;
-    border-collapse: collapse;
-}
-.resumen .contenido-seccion .info .col table .datos{
-    width: 40%;
-    border-bottom: 1px solid #bab9b9;
-}
-.resumen .contenido-seccion .info .col table h4{
-    margin-top: 10px;
-}
-.resumen .contenido-seccion .info .col table h3{
-    font-size: 20px;
-    margin-bottom: 5px;
-}
-.resumen .contenido-seccion .info .col table p{
-    font-size: 14px;
-}
-.resumen .contenido-seccion .info .col table .promedio{
+
+.resumen .contenido-seccion .info .col table .promedio {
     display: block;
     color: #940253;
     margin-top: 10px;
     font-weight: bold;
 }
-.resumen .contenido-seccion .info .col table .descripcion{
-    border-left: 1px solid #bab9b9;
-    padding-left: 20px;
-}
+
+
+
+    
 /* SECCION CONTACTO */
 .contacto{
     background-color: #202020;
