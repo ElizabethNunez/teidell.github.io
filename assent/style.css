@@ -274,5 +274,9 @@ html{
     .contacto .contenido-seccion .fila{
         display: block;
     }
+    .especial{
+        color: #940253;
+        width: 50px;
+    }
 }
 
